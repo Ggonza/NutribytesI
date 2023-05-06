@@ -54,7 +54,7 @@ const Profesor = () => {
     return (
         <div>
             <h1>Bienvenido, {nombre} {apellido}!</h1>
-            <p>Esta es la página del profesor.</p>
+            <p>Esta es la página del cocinero.</p>
             <button onClick={cerrarSesion}>Cerrar sesión</button>
         </div>
     );
