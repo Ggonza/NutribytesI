@@ -1,0 +1,55 @@
+/* error404.css */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+.error-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #1a1a1a;
+  overflow: hidden;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.stars {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.star {
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  background-color: #00ff41;
+  opacity: 0.5;
+  animation: flicker 1.5s infinite alternate, move 5s linear infinite;
+}
+
+@keyframes flicker {
+  0%, 100% {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+@keyframes move {
+  0% {
+    transform: translate(-50%, -50%) translateY(0);
+  }
+  100% {
+    transform: translate(-50%, -50%) translateY(calc(100vh + 2px));
+  }
+}
+
+.error-text {
+  position: relative;
+  font-size: 6rem;
+  color: #00ff41;
+
+  z-index: 1;
+}

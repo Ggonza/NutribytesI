@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+body{
+    font-family: 'Prompt', sans-serif;
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.login-box {
+  display: flex;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.left-section {
+  background-color: #5086C1;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-section h1 {
+  color: white;
+  text-align: center;
+}
+
+.right-section {
+  padding: 30px;
+  width: 50%;
+}
+
+.right-section h2 {
+  margin-bottom: 20px;
+}
+
+
+.recover-password {
+  display: block;
+  text-align: right;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #87cefa;
+}
+
+.boton-inicio{
+    color: white;
+    background-color: #5086C1;
+    border-color: #87cefa;
+}
+
+.footer-text {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  text-align: center;
+  color: #808080;
+}

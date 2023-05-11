@@ -1,0 +1,6 @@
+export  * from "./ProfesorLayout"
+export  * from "./RectorLayout"
+export  * from "./AdminLayout"
+export  * from "./CocineroLayout"
+export  * from "./ErrorsLayout"
+export  * from "./LoginLayout"
